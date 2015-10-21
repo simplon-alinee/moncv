@@ -1,3 +1,5 @@
+
+
 body {
 margin-left: 15%;
 margin-right: 15%;
@@ -26,13 +28,14 @@ background-color:#B5E655;
 color:#20224D;
 border:1px,1px,1px,1px;
 border-radius:4px;
-
+height:160px;
 }
 
 .flotte {
-float:right; 
+float:right;
+margin-left:500px;
+margin-top:-160px;
 }
-
 
 
 #banniereetudes {
@@ -60,3 +63,23 @@ border:1px,1px,1px,1px;
 height:40px;
 }
 
+#competences {
+text-align:left;
+background-color:#B5E655;
+border:1px,1px,1px,1px;
+border-radius:5px;
+}
+
+#banniereloisirs {
+text-align:center;
+background-color:#96CA2D;
+border-radius:10px;
+border:1px,1px,1px,1px;
+}
+
+#loisirs {
+text-align:left;
+background-color:#B5E655;
+border:1px,1px,1px,1px;
+border-radius:5px;
+}
