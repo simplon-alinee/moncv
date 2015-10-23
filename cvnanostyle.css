@@ -1,11 +1,23 @@
+a:link {
+	color:#1B4316;
+	text-decoration:none;
+
+}
 
 
 body {
 margin-left: 15%;
 margin-right: 15%;
-margin-bottom: 0%
-margin-top: 0%
+margin-bottom: 0%;
+margin-top: 0%;
 font-family:cursive;
+color:#3D5933;
+background-color:#D6FE9A;
+}
+
+#infos ul li a {
+font-family:cursive;
+text-decoration:none;
 }
 
 h2 {
@@ -14,26 +26,30 @@ text-align:center;
 
 #header {
 text-align:left;
+font-family:cursive;
 background-color:#96CA2D;
 color:#20224D;
 border:1px,1px,1px,1px;
 border-radius:10px;
 height:40px;
 display:block;
+color:#3D5933;
 }
 
 #infos {
 text-align:left;
 background-color:#B5E655;
-color:#20224D;
+color:#3D5933;
 border:1px,1px,1px,1px;
 border-radius:4px;
 height:160px;
+font-family:cursive;
+font-size:20px;
 }
 
 .flotte {
 float:right;
-margin-left:500px;
+margin-left:-150px;
 margin-top:-160px;
 }
 
@@ -44,7 +60,6 @@ background-color:#96CA2D;
 border:1px,1px,1px,1px;
 border-radius:10px;
 height:40px;
-
 }
 
 #etudes {
@@ -53,6 +68,37 @@ background-color:#B5E655;
 color:#20224D;
 border:1px,1px,1px,1px;
 border-radius:5px;
+color:#3D5933;
+}
+
+#etudesbis {
+text-align:center;
+background-color:#B5E655;
+color:#20224D;
+border:1px,1px,1px,1px;
+border-radius:5px;
+color:#3D5933;
+}
+
+
+#boutonetudes {
+  /*boutons*/
+	border-radius: 10px;
+	text-decoration: none;
+	color:#3D5933;
+	text-align: center;a:link {
+	color:;
+	text-decoration:;
+	background-color:;
+}
+	font-family: cursive, sans-serif;
+	padding-top: 10px;
+	display: inline-block;
+	background-color: #96CA2D;
+	height: 40px;
+	width:150px;
+	float:right;
+	margin-top:-90px;
 }
 
 #bannierecompetences {
@@ -68,6 +114,7 @@ text-align:left;
 background-color:#B5E655;
 border:1px,1px,1px,1px;
 border-radius:5px;
+color:#3D5933;
 }
 
 #banniereloisirs {
@@ -82,4 +129,94 @@ text-align:left;
 background-color:#B5E655;
 border:1px,1px,1px,1px;
 border-radius:5px;
+color:#3D5933;
+}
+
+#boutonloisir {
+  /*boutons*/
+	border-radius: 10px;
+	text-decoration: none;
+	color:#3D5933;
+	text-align: center;
+	font-family: cursive, sans-serif;
+	padding-top: 10px;
+	display: inline-block;
+	background-color: #96CA2D;
+	height: 40px;
+	width:150px;
+	float:right;
+	margin-top:-90px;
+}
+
+#boutoncontact {
+  /*boutons*/
+	border-radius: 10px;
+	text-decoration: none;
+	color:#3D5933;
+	text-align: center;
+	font-family: cursive, sans-serif;
+	padding-top: 10px;
+	display: inline-block;
+	background-color: #B5E655;
+	height: 40px;
+	width:150px;
+	margin-bottom:-320px;
+	margin-left:753px;
+	
+	
+}
+
+#boutoncoordonnees {
+	border-radius: 10px;
+	text-decoration: none;
+	position:relative;
+	color:#3D5933;
+	text-align: center;
+	font-family: cursive, sans-serif;
+	padding-top: 10px;
+	display: block;
+	background-color: #B5E655;
+	height: 40px;
+	width:150px;
+	float;left;
+	margin-top:-30px;
+
+}
+
+#map {
+margin-left:500px;
+}
+
+#coordonnees {
+text-align:left;
+background-color:#B5E655;
+border:1px,1px,1px,1px;
+border-radius:5px;
+color:#3D5933;
+}
+
+#bannierecontact {
+text-align:center;
+background-color:#96CA2D;
+border-radius:10px;
+border:1px,1px,1px,1px;
+}
+
+
+#formulaire {
+text-align:left;
+background-color:#B5E655;
+border:1px,1px,1px,1px;
+border-radius:5px;
+color:#3D5933;
+
+
+
+}
+
+#footer {
+background-color:#96CA2D;
+height:50px;
+border:1px,1px,1px,1px;
+border-radius:10px;
 }
