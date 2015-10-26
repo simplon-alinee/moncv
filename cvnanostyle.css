@@ -156,13 +156,13 @@ color:#3D5933;
 	text-align: center;
 	font-family: cursive, sans-serif;
 	padding-top: 10px;
-	display: inline-block;
+	display: block;
 	background-color: #B5E655;
 	height: 40px;
 	width:150px;
-	margin-bottom:-320px;
-	margin-left:753px;
-	
+	float:right;
+	margin-top:-50px;
+
 	
 }
 
@@ -179,7 +179,7 @@ color:#3D5933;
 	height: 40px;
 	width:150px;
 	float;left;
-	margin-top:-30px;
+	
 
 }
 
